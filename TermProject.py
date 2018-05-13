@@ -14,9 +14,12 @@ class Display(Qt.QWidget):
         super().__init__(parent)
         self.foreground = Qt.QLabel()
         self.foreground.setScaledContents(True)
-        self.move = Qt.QMovie(fileName)
+
+    def playMovie(self,filename):
+        self.movie = Qt.QMovie(filename)
         self.foreground.setMovie(self.movie)
         self.movie.start()
+
 
 
 class AspectRatioPadding(Qt.QWidget):
@@ -54,25 +57,25 @@ padding.show()
 # defines airwheel call
 @skywriter.airwheel()
 def airwheel(delta):
-    display.playMovie('paw 2.gif')
+    display.playMovie(display,'paw 2.gif')
 
 
 # defines doubletap call
 @skywriter.double_tap()
 def doubletap(position):
-    display.playMovie('lay down.gif')
+    display.playMovie(display,'lay down.gif')
 
 
 # defines flick call
 @skywriter.flick()
 def flick(start,finish):
-    display.playMovie('jump.gif')
+    display.playMovie(display,'jump.gif')
 
 
 # defines touch call
 @skywriter.touch()
 def touch(position):
-    display.playMovie('sit.gif')
+    display.playMovie(display,'sit.gif')
 
 
 signal.pause()
