@@ -1,82 +1,82 @@
-#!/usr/bin/env python
-import signal
 import skywriter
-from PyQt5 import Qt
-#import autopy
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+import signal
 import sys
 
-
-application = Qt.QApplication(sys.argv)
-
-
-class Display(Qt.QWidget):
+class MoviePlayer(QWidget):
     def __init__(self,parent=None):
-        super().__init__(parent)
-        self.foreground = Qt.QLabel()
-        self.foreground.setScaledContents(True)
-
-    def playMovie(self,filename):
-        self.movie = Qt.QMovie(filename)
-        self.foreground.setMovie(self.movie)
+        
+        QWidget.__init__(self,parent)
+        
+        self.setGeometry(200,200,400,300)
+        self.setWindowTitle("test gif")
+        
+        self.movie_screen = QLabel()
+        self.movie_screen.setSizePolicy(QSizePolicy.Expanding,QSizePolicy.Expanding)
+        self.movie_screen.setAlignment(Qt.AlignCenter)
+        
+        main_layout = QVBoxLayout()
+        main_layout.addWidget(self.movie_screen)
+        self.setLayout(main_layout)
+        
+    def playMovie(self, fileName):
+        self.movie = QMovie(fileName, QByteArray(), self)
+        self.movie.setCacheMode(QMovie.CacheAll)
+        self.movie.setSpeed(100)
+        self.movie_screen.setMovie(self.movie)
         self.movie.start()
+        
+        
+        # defines airwheel call
+    @skywriter.airwheel()
+    def airwheel(delta):
+        signals.input_a.emit('8bad_fetch.gif')
 
 
+    # defines doubletap call
+    @skywriter.double_tap(repeat_rate=1)
+    def doubletap(position):
+        signals.input_a.emit('3lay_down.gif')
 
-class AspectRatioPadding(Qt.QWidget):
-    def __init__(self,child,parent=None):
+
+    # defines flick call
+    @skywriter.flick()
+    def flick(start,finish):
+        signals.input_a.emit('2sad_paw.gif')
+
+
+    # defines touch call
+    @skywriter.touch(repeat_rate=1)
+    def touch(position):
+        signals.input_a.emit('4get_up.gif')
+        
+
+class Signals(QObject):
+    input_a = pyqtSignal(str)
+    
+    def __init__(self, player, parent=None):
         super().__init__(parent)
+        
+        self.player = player
+        
+        self.input_a.connect(self.a)
+        
+        
+        
+    def a(self, fileName):
+        self.player.playMovie(fileName)
 
-        self.child = child
-        self.child.setParent(self)
+        
+app = QApplication(sys.argv)
+player = MoviePlayer()
+signals = Signals(player=player)
 
-    def resizeEvent(self,event):
-        new_size = event.size()
-        child_size = self.child.sizeHint().scaled(
-            new_size,
-            Qt.Qt.KeepAspectRatio,
-        )
-
-        offset = (new_size - child_size) / 2
-
-        self.child.setGeometry(
-            offset.width(),
-            offset.height(),
-            child_size.width(),
-            child_size.height(),
-        )
-
-    def sizeHint(self):
-        return self.child.sizeHint()
+player.playMovie('1sit.gif')
+player.showFullScreen()
+sys.exit(app.exec_())
 
 
-display = Display()
-padding = AspectRatioPadding(child=display)
-padding.show()
+signal.pause(5)
 
-
-# defines airwheel call
-@skywriter.airwheel()
-def airwheel(delta):
-    display.playMovie(display,'paw 2.gif')
-
-
-# defines doubletap call
-@skywriter.double_tap()
-def doubletap(position):
-    display.playMovie(display,'lay down.gif')
-
-
-# defines flick call
-@skywriter.flick()
-def flick(start,finish):
-    display.playMovie(display,'jump.gif')
-
-
-# defines touch call
-@skywriter.touch()
-def touch(position):
-    display.playMovie(display,'sit.gif')
-
-
-signal.pause()
-sys.exit(application.exec())
