@@ -62,6 +62,9 @@ python3 configure.py
 make
 sudo make install
 
+#To easily transfer the gifs needed for the project, we used the wget command and a shared Dropbox link for each gif
+wget "https://www.dropbox.com/s/[the specific URL tail for the gif].gif"
+
 
 
 
