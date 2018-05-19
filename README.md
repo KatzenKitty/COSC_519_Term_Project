@@ -79,7 +79,7 @@ and required dev libraries:
 In order to install autopy, which was required for some of the skywriter test scripts, we needed to install the Rust programming
 language:
 
-``` curl https://sh.rustup.rs -sSf | sh -s -- --default.toolchain nightly
+```curl https://sh.rustup.rs -sSf | sh -s -- --default.toolchain nightly
 source $HOME/.cargo/env #this sets the PATH variable so we can run rust from any directory
 ```
     
