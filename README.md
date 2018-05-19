@@ -11,8 +11,11 @@ This is our Term Project for COSC 519: Operating Systems at Towson University. T
 6. 
 
 ## Photos
+We soldered the header into the pi and the mini-header into the skywriter. As you can see, we soldered the mini-header into the skywriter upsidedown. This could have been avoided if there had been more documentation available about the skywriter or if we had known more about electronics engineering to realize that it would still work no matter which way it was soldered.
 ![In Progress 1](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/InProgress.jpg)
 ![In Progress 2](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/InProgress2.jpg)
+
+Sierra, our wonderful doggie model:
 ![Our Model](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/Gifs/8bad_fetch.gif)
 
 ## Things we used
