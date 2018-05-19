@@ -1,5 +1,4 @@
 ## Harry Potter Interactive Photo Frame
---------------------------------------
 This project uses a raspberry pi to simulate a "magic" photograph similar to those described in the Harry Potter literary universe. In Harry Potter, the photographs and portaits of people act essentially as mini instances of that person, able to interact with the outside world and even talk. For example, Harry looks at a photo of his parents when he is upset and they look sympathetic, wave, and blow him kisses to try and comfort him. We wanted to simulate this using the Raspberry Pi Zero, an HDMI display, gesture-sensing technology, and a normal photo frame. This readme describes our process and solutions to challenges we faced.
 
 ## Motivation
@@ -17,7 +16,7 @@ We soldered the header into the pi and the mini-header into the skywriter. As yo
 ![In Progress 1](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/InProgress.jpg)
 ![In Progress 2](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/InProgress2.jpg)
 
-Our complete setup, prior to arranging it in the photo frame:
+Our complete setup, prior to attaching the header and skywriter:
 
 ![CompleteSetup](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/CompleteSetup.jpg)
 
