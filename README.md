@@ -10,15 +10,11 @@ This is our Term Project for COSC 519: Operating Systems at Towson University. T
 5. I/O devices
 6. 
 
-## Screenshots
-
+## Photos
+![In Progress 1](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/InProgress.jpg)
+![In Progress 2](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/InProgress2.jpg)
 ![Our Model](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/Gifs/8bad_fetch.gif)
 
-## Features
-What makes your project stand out?
-
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Installation
 
