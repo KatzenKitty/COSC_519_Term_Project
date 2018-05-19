@@ -129,21 +129,18 @@ wget "https://www.dropbox.com/s/[the specific URL tail for the gif].gif"
 - [https://howtomechatronics.com/tutorials/arduino/how-i2c-communication-works-and-how-to-use-it-with-arduino/]
 Dachis, A., n.d. A Beginner’s Guide to DIYing with the Raspberry Pi [WWW Document]. 
 
--Lifehacker. URL [https://lifehacker.com/5976912/a-beginners-guide-to-diying-with-the-raspberry-pi] (accessed 3.5.18).
+- Lifehacker. URL [https://lifehacker.com/5976912/a-beginners-guide-to-diying-with-the-raspberry-pi] (accessed 3.5.18).
 
--Magic Presentations with Skywriter [WWW Document], 2015. . The MagPi Magazine. URL [https://www.raspberrypi.org/magpi/skywriter/] (accessed 3.5.18).
+- Magic Presentations with Skywriter [WWW Document], 2015. . The MagPi Magazine. URL [https://www.raspberrypi.org/magpi/skywriter/] (accessed 3.5.18).
 
--[https://www.google.com/url?q=http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html&sa=D&source=hangouts&ust=1526831120266000&usg=AFQjCNHFOnfeON5MYShTeRC3yjTUGBxxKw]
+- [https://www.google.com/url?q=http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html&sa=D&source=hangouts&ust=1526831120266000&usg=AFQjCNHFOnfeON5MYShTeRC3yjTUGBxxKw]
 
--[https://gist.github.com/altendky] This individual assisted with python syntax and utilizing the PyQt library via the python IRC
+- [https://gist.github.com/altendky] This individual assisted with python syntax and utilizing the PyQt library via the python IRC
 
--[https://github.com/pimoroni/skywriter-hat/blob/master/datasheets/Datasheet.pdf]
+- [https://github.com/pimoroni/skywriter-hat/blob/master/datasheets/Datasheet.pdf]
 
--[https://pinout.xyz/pinout/skywriter_hat#]
+- [https://pinout.xyz/pinout/skywriter_hat#]
 
--[https://hackernoon.com/compiling-rust-for-the-raspberry-pi-49fdcd7df658]
+- [https://hackernoon.com/compiling-rust-for-the-raspberry-pi-49fdcd7df658]
 
--[https://doc.rust-lang.org/book/second-edition/ch00-00-introduction.html]
-
-
-
+- [https://doc.rust-lang.org/book/second-edition/ch00-00-introduction.html]
