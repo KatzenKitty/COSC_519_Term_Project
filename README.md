@@ -11,8 +11,8 @@ This is our Term Project for COSC 519: Operating Systems at Towson University. T
 6. 
 
 ## Screenshots
-Include logo/demo screenshot etc.
 
+![Our Model](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/Gifs/8bad_fetch.gif)
 
 ## Features
 What makes your project stand out?
