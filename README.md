@@ -10,19 +10,25 @@ This is our Term Project for COSC 519: Operating Systems at Towson University. T
 5. I/O devices
 6. Buses
 
-## Photos
+## Challenges we faced:
 We soldered the header into the pi and the mini-header into the skywriter. As you can see, we soldered the mini-header into the skywriter upsidedown. This could have been avoided if there had been more documentation available about the skywriter or if we had known more about electronics engineering to realize that it would still work no matter which way it was soldered.
 
 ![In Progress 1](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/InProgress.jpg)
 ![In Progress 2](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/InProgress2.jpg)
 
+Our skywriter stopped working at one point, only recognizing touches. The pimoroni team was very helpful!
+https://forums.pimoroni.com/t/skywriter-xl-only-recognizes-touch-gestures/7724/2
+
+Sierra, our wonderful doggie model! She was not always able to perform the tricks we needed:
+
+![Our Model](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/Gifs/8bad_fetch.gif)
+
+One of the biggest challenges was getting the PyQt make file to compile. In total, it took about 10 hours due to the limited processing power of the Raspberry Pi zero.
+
+## Completed project
 Our complete setup, prior to attaching the header and skywriter:
 
 ![CompleteSetup](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/CompleteSetup.jpg)
-
-Sierra, our wonderful doggie model:
-
-![Our Model](https://github.com/KatzenKitty/COSC_519_Term_Project/blob/master/Gifs/8bad_fetch.gif)
 
 ## Things we used
 - [Raspberry Pi Zero W Starter Kit](http://www.microcenter.com/product/488620/Pi_Zero_W_Starter_Kit) $39.99
