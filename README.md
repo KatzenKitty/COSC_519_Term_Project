@@ -40,7 +40,7 @@ Sierra, our wonderful doggie model:
 - [Skywriter XL Gesture-Sensing Breakout Board](https://shop.pimoroni.com/products/skywriter) $22.50
 - [HDMI Display](https://shop.pimoroni.com/products/hdmi-8-inch-lcd-screen-kit-800-600) $50.63
 - [HDMI 1 ft cable](https://www.amazon.com/gp/product/B00474YRE0/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1) $6.49
-- [Powerbank]()
+- [Powerbank](https://www.bestbuy.com/site/tzumi-pocketjuice-endurance-12000-mah-portable-charger-black/5182800.p?skuId=5182800&cmp=RMX&extStoreId=149&ref=212&loc=1&gclid=EAIaIQobChMIo9_NqJKS2wIVywOGCh2EVgIMEAQYASABEgImm_D_BwE&gclsrc=aw.ds)
 - Android phone charger (already owned) $0.00
 - Wooden Photo Frame (we had this already) $0.00
 - Packing styrofoam (also had this already) $0.00
