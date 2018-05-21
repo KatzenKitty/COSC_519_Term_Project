@@ -1,5 +1,6 @@
-# Harry Potter Interactive Photo Frame #
-This project uses a raspberry pi to simulate a "magic" photograph similar to those described in the Harry Potter literary universe. In Harry Potter, the photographs and portaits of people act essentially as mini instances of that person, able to interact with the outside world and even talk. For example, Harry looks at a photo of his parents when he is upset and they look sympathetic, wave, and blow him kisses to try and comfort him. We wanted to simulate this using the Raspberry Pi Zero, an HDMI display, gesture-sensing technology, and a normal photo frame. This readme describes our process and solutions to challenges we faced.
+# :zap: :zap: Harry Potter Interactive Photo Frame :zap: :zap: #
+
+ This project uses a raspberry pi to simulate a "magic" photograph similar to those described in the Harry Potter literary universe. In Harry Potter, the photographs and portaits of people act essentially as mini instances of that person, able to interact with the outside world and even talk. For example, Harry looks at a photo of his parents when he is upset and they look sympathetic, wave, and blow him kisses to try and comfort him. We wanted to simulate this using the Raspberry Pi Zero, an HDMI display, gesture-sensing technology, and a normal photo frame. This readme describes our process and solutions to challenges we faced. 
 
 ## Motivation
 This is our Term Project for COSC 519: Operating Systems at Towson University. The goal of this assignment was to create something that would demonstrate the knowledge we have gained this semester about operating systems. An example of the topics we used in creating this project are as follows:
