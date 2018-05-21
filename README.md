@@ -1,4 +1,4 @@
-## Harry Potter Interactive Photo Frame
+# Harry Potter Interactive Photo Frame #
 This project uses a raspberry pi to simulate a "magic" photograph similar to those described in the Harry Potter literary universe. In Harry Potter, the photographs and portaits of people act essentially as mini instances of that person, able to interact with the outside world and even talk. For example, Harry looks at a photo of his parents when he is upset and they look sympathetic, wave, and blow him kisses to try and comfort him. We wanted to simulate this using the Raspberry Pi Zero, an HDMI display, gesture-sensing technology, and a normal photo frame. This readme describes our process and solutions to challenges we faced.
 
 ## Motivation
